@@ -17,5 +17,3 @@
 ![Apostila Jornada Python - Aula 1 (1)-16](https://github.com/oLeonardo-R/Projetos-Individuais/assets/116850576/7516adb1-8f95-4d1f-9510-162c8f4fad4b)![Apostila Jornada Python - Aula 1 (1)-18](https://github.com/oLeonardo-R/Projetos-Individuais/assets/116850576/a5ebc253-6d69-46dd-9cb2-fabb333c140f)![Apostila Jornada Python - Aula 1 (1)-19](https://github.com/oLeonardo-R/Projetos-Individuais/assets/116850576/b28426fd-d195-4bb3-b51a-d07e3ade0230)
 
 
-![Apostila Jornada Python - Aula 1 (1)-17](https://github.com/oLeonardo-R/Projetos-Individuais/assets/116850576/e7e8ccd6-a894-4d35-b61e-562c826f7989)
-
