@@ -11,9 +11,11 @@
 ![Apostila Jornada Python - Aula 1 (1)-10](https://github.com/oLeonardo-R/Projetos-Individuais/assets/116850576/6f445554-f8a2-4f32-81c5-49f8d663e0c3)![Apostila Jornada Python - Aula 1 (1)-13](https://github.com/oLeonardo-R/Projetos-Individuais/assets/116850576/ae426bd2-c83e-47bb-8022-ffda986c6879)
 
 ![Apostila Jornada Python - Aula 1 (1)-11](https://github.com/oLeonardo-R/Projetos-Individuais/assets/116850576/1ef07e1f-b402-48cd-a98d-f6eef64aff35)![Apostila Jornada Python - Aula 1 (1)-14](https://github.com/oLeonardo-R/Projetos-Individuais/assets/116850576/6960360a-d62d-4a49-ae0e-10ea43387c5d)
+![Apostila Jornada Python - Aula 1 (1)-15](https://github.com/oLeonardo-R/Projetos-Individuais/assets/116850576/2511dd72-f1d0-4a84-a9a6-c74218f145c3)
+
+
 ![Apostila Jornada Python - Aula 1 (1)-16](https://github.com/oLeonardo-R/Projetos-Individuais/assets/116850576/7516adb1-8f95-4d1f-9510-162c8f4fad4b)![Apostila Jornada Python - Aula 1 (1)-18](https://github.com/oLeonardo-R/Projetos-Individuais/assets/116850576/a5ebc253-6d69-46dd-9cb2-fabb333c140f)![Apostila Jornada Python - Aula 1 (1)-19](https://github.com/oLeonardo-R/Projetos-Individuais/assets/116850576/b28426fd-d195-4bb3-b51a-d07e3ade0230)
 
 
 ![Apostila Jornada Python - Aula 1 (1)-17](https://github.com/oLeonardo-R/Projetos-Individuais/assets/116850576/e7e8ccd6-a894-4d35-b61e-562c826f7989)
 
-![Apostila Jornada Python - Aula 1 (1)-15](https://github.com/oLeonardo-R/Projetos-Individuais/assets/116850576/2511dd72-f1d0-4a84-a9a6-c74218f145c3)
