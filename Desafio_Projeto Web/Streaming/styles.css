@@ -1,0 +1,402 @@
+/* Geral */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+  background-color: #131111;
+}
+
+/* Header */
+header {
+  background-color: #222;
+  border-top: #009b50 2px solid;
+  border-bottom: #fc2104 2px solid;
+  color: #00bf63;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logotipo {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+nav li {
+  margin: 0 1rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}
+
+nav a:hover {
+  background-color: #333;
+  color: #e50914;
+}
+
+.opcoes-usuario {
+  display: flex;
+  align-items: left;
+}
+
+#lupa {
+  width: 25px;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+#notificacao {
+  width: 25px;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+.opcoes-usuario img {
+  width: 28px;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+.perfil-usuario {
+  display: flex;
+  align-items: center;
+}
+
+.perfil-usuario img {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  border-radius: 50%;
+  margin-right: 0.8rem;
+}
+
+.perfil-usuario span {
+  font-weight: bold;
+}
+
+/* Banner Principal */
+.banner {
+  background-image: url("https://youtu.be/7w5Vfjozzb8");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding: 5rem 0;
+  position: relative;
+}
+
+.banner {
+  position: relative;
+  overflow: hidden;
+  padding: 10rem;
+}
+
+.banner video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.banner .conteudo {
+  position: relative;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.banner .miniatura {
+  display: none;
+}
+
+/* Botão de áudio */
+.banner button {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.banner::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.conteudo {
+  position: relative;
+  z-index: 1;
+}
+
+.banner h1,
+.banner h2 {
+  margin-bottom: 1rem;
+  color: #00bf63;
+}
+
+.banner p {
+  max-width: 600px;
+  margin: 0 auto 2rem;
+}
+
+.classificacao {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #00bf63;
+}
+
+/* Botões */
+.btn {
+  display: inline-block;
+  background-color: #00bf63;
+  color: white;
+  padding: 0.8rem 1.5rem;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-right: 1rem;
+}
+
+.pagina {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #444;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.titulo {
+  font-size: 24px;
+  text-align: center;
+}
+
+.nota,
+.votos {
+  margin-left: 5px;
+}
+
+.principal {
+  display: flex;
+}
+
+.conteudo {
+  background-color: #1d1c1c;
+  width: 30%;
+  padding: 20px;
+  border-radius: 8px;
+  flex: 2;
+}
+
+.episodio {
+  margin-bottom: 40px;
+}
+
+.episodio-titulo {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #00bf63;
+}
+
+.episodio-info span {
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 14px;
+  color: #00bf63;
+}
+
+.classificacao {
+  padding: 2px 5px;
+  border-radius: 3px;
+}
+
+.legenda,
+.lancamento {
+  margin-left: 5px;
+}
+
+.descricao {
+  font-size: 16px;
+  color: #ccc;
+}
+
+.lateral {
+  flex: 1;
+  margin-left: 20px;
+}
+
+.episodios-anteriores {
+  background-color: #1e1e1e;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.episodios-anteriores h3 {
+  font-family: "Arial", sans-serif;
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #00a855;
+  letter-spacing: 0.5px;
+  line-height: 1.4;
+  text-decoration: none;
+}
+
+.episodio-anterior {
+  margin-bottom: 20px;
+}
+
+.link-episodio:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+}
+
+.link-episodio {
+  text-decoration: none;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.imagem-episodio {
+  width: 150px;
+  height: auto;
+  margin-bottom: 5px;
+  margin-right: 10px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.titulo-episodio-anterior {
+  font-size: 14px;
+}
+
+.botao-ver-mais {
+  background-color: #00bf63;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.botao-ver-mais:hover {
+  background-color: #009c52;
+}
+
+.botao-ver-mais:active {
+  background-color: #007940;
+}
+
+/* footer */
+
+footer {
+  background-color: #030303;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.top-section {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+
+  border-bottom: 1px solid #00bf63;
+}
+
+.social-media,
+.app-download {
+  flex: 1;
+  max-width: 500px;
+  margin: 0 20px;
+  border: 1px solid rgba(87, 79, 79, 0.5);
+  padding: 10px;
+}
+
+.social-media p,
+.app-download p {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+
+.social-media .icons {
+  margin-top: 10px;
+}
+
+.social-media .icons img {
+  width: 30px;
+  height: 30px;
+  margin: 0 5px;
+}
+
+.social-media .icons a {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.app-download .qr-code {
+  margin-top: 10px;
+}
+
+.app-download .qr-code img {
+  width: 80px;
+  height: auto;
+}
+
+.bottom-section {
+  padding: 20px 0;
+}
+
+footer nav {
+  margin: 20px 0;
+}
+
+footer nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 14px;
+}
+
+footer nav a:hover {
+  text-decoration: underline;
+}
+
+footer .copyright {
+  font-size: 12px;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="./img/icon.svg" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Kicker Anime</title>
+  </head>
+  <body>
+    <video autoplay muted loop id="backgroundVideo">
+      <source
+        src="./img/Dragon Sun Halo Head Dance 4k60fps _ Demon Slayer Twixtor.mp4"
+        type="video/mp4"
+      />
+    </video>
+
+    <div class="content">
+      <div class="login-container">
+        <img src="./img/Logo (3).svg" alt="Logo" />
+        <h2>Entrar</h2>
+        <input type="email" id="email" placeholder="Email" required />
+        <input type="password" id="password" placeholder="Senha" required />
+        <div class="button-container">
+          <button onclick="fakeLogin()">Entrar</button>
+        </div>
+        <div id="message" class="message"></div>
+        <div class="links">
+          <a href="">Esqueceu a senha?</a>
+          <a href="">Criar uma conta</a>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="bottom-section">
+        <nav>
+          <a href="#">Perguntas frequentes</a>
+          <a href="#">Central de ajuda</a>
+          <a href="#">Temos de uso</a>
+          <a href="#">Trabalhe conosco</a>
+          <a href="#">Dúvidas? Ligue 0800-777-777</a>
+        </nav>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

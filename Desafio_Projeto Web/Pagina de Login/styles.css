@@ -1,0 +1,154 @@
+/* styles.css */
+body {
+  background-size: cover;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  margin: 0;
+  color: #fff;
+}
+
+#backgroundVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  background-size: cover;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.login-container {
+  background-color: rgba(0, 0, 0, 0.75);
+  padding: 40px 30px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+  max-width: 400px;
+  width: 90%;
+}
+
+.login-container img {
+  width: 80%;
+  max-width: 150px;
+  margin-bottom: 30px;
+  padding-right: 20px;
+}
+
+.login-container h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.login-container input[type="email"],
+.login-container input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #333;
+  border-radius: 4px;
+  background-color: #333;
+  color: #fff;
+  font-size: 14px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.login-container button {
+  padding: 12px;
+  width: 100%;
+  max-width: 200px;
+  background-color: #00bf63;
+  border: none;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.login-container button:hover {
+  background-color: #f6121d;
+}
+
+.message {
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.login-container .links {
+  margin-top: 20px;
+}
+
+.login-container .links a {
+  color: #b3b3b3;
+  text-decoration: none;
+  display: block;
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.login-container .links a:hover {
+  text-decoration: underline;
+}
+
+/* footer */
+footer {
+  background-color: #030303;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+  width: 100%;
+}
+
+footer nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+footer nav a {
+  color: white;
+  text-decoration: none;
+  margin: 5px 10px;
+  font-size: 14px;
+}
+
+footer nav a:hover {
+  text-decoration: underline;
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 600px) {
+  .login-container {
+    padding: 20px 15px;
+  }
+
+  .login-container h2 {
+    font-size: 20px;
+  }
+
+  .login-container input[type="email"],
+  .login-container input[type="password"] {
+    padding: 10px;
+    font-size: 12px;
+  }
+
+  .login-container button {
+    padding: 10px;
+    font-size: 14px;
+  }
+}
