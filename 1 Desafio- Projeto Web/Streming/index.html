@@ -1,0 +1,188 @@
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kicker Anime</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logotipo"><img src="./img/Logo (3).svg" alt="" /></div>
+      <nav>
+        <ul>
+          <li><a href="#">Início</a></li>
+          <li><a href="#">Episódios</a></li>
+          <li><a href="#">Filmes</a></li>
+          <li><a href="#">Planos</a></li>
+          <li><a href="#">Contato</a></li>
+        </ul>
+      </nav>
+
+      <div class="perfil-usuario">
+        <div class="opcoes-usuario">
+          <a href="#"
+            ><img id="lupa" src="./icons/icons8-pesquisar.svg" alt="Search"
+          /></a>
+          <a href="#"
+            ><img
+              id="notificacao"
+              src="./icons/icons-lembrete.svg"
+              alt="Notifications"
+          /></a>
+        </div>
+        <img src="./img/Zenitsu.jpg" alt="Foto do Perfil" />
+        <span id="nome-usuario">Junior</span>
+      </div>
+    </header>
+
+    <main>
+      <section class="banner">
+        <video id="meuVideo" autoplay loop muted playsinline>
+          <source src="" type="video/mp4" />
+          Seu navegador não suporta o elemento de vídeo.
+        </video>
+        <div class="conteudo">
+          <h1>#1 Mais Popular</h1>
+          <h2>Demon Slayer</h2>
+          <p>
+            A segunda temporada de 'Demon Slayer' acompanha Tanjiro, Nezuko e os
+            demais slayers em suas aventuras pelo perigoso Distrito da Luz
+            Vermelha, enfrentando novos inimigos e descobrindo segredos do mundo
+            dos demônios enquanto buscam por força e uma cura para Nezuko.
+          </p>
+          <div class="classificacao">
+            <span>★★★★☆</span>
+          </div>
+          <div class="botoes">
+            <a href="#" class="btn">Assista</a>
+            <a href="#" class="btn">Trailer</a>
+          </div>
+        </div>
+        <button id="btnAudio">Mudo</button>
+      </section>
+
+      <div class="pagina">
+        <header class="cabecalho">
+          <h1 class="titulo">Demon Slayer: Kimetsu no Yaiba</h1>
+          <div class="avaliacao">
+            <span class="nota"></span>
+          </div>
+        </header>
+        <div class="principal">
+          <main class="conteudo">
+            <section class="episodio">
+              <h2 class="episodio-titulo">
+                E4 - Para colocar um sorriso no seu rosto
+              </h2>
+              <div class="episodio-info">
+                <span class="classificacao">A16</span>
+                <span class="legenda">Legendado</span>
+                <span class="lancamento">Lançado em 2 jun 2024</span>
+              </div>
+
+              <p class="descricao">
+                Tanjirou chega à próxima fase do treinamento Hashira, com
+                Tokito. No entanto, o Pilar da Névoa parece pegar extremamente
+                pesado com seus pupilos. Será que Tanjirou conseguirá de alguma
+                forma amaciar o coração de Tokito para que ele pegue mais leve
+                com os demais integrantes do esquadrão de exterminadores?
+              </p>
+            </section>
+          </main>
+          <aside class="lateral">
+            <section class="episodios-anteriores">
+              <h3>Episódios Anteriores</h3>
+              <div class="episodio-anterior">
+                <a href="#" class="link-episodio">
+                  <img
+                    src="./img/EP 4.jpg"
+                    alt="E4 - Para colocar um sorriso no seu rosto..."
+                    class="imagem-episodio"
+                  />
+                  <p class="titulo-episodio-anterior">
+                    E4 - Para colocar um sorriso no seu rosto...
+                  </p>
+                </a>
+                <a href="#" class="link-episodio">
+                  <img
+                    src="./img/EP 3.jpg"
+                    alt="E3 - Tanjiro Completamente Recuperado!!"
+                    class="imagem-episodio"
+                  />
+                  <p class="titulo-episodio-anterior">
+                    E3 - - Tanjiro Completamente Recuperado!! Ele se junta ao
+                    Treinamento Hashira
+                  </p>
+                </a>
+                <a href="#" class="link-episodio">
+                  <img
+                    src="./img/E2.png"
+                    alt="E2 - A dor do Pilar da Água, Giyu Tomioka"
+                    class="imagem-episodio"
+                  />
+                  <p class="titulo-episodio-anterior">
+                    E2 - A dor do Pilar da Água, Giyu Tomioka
+                  </p>
+                </a>
+              </div>
+              <button class="botao-ver-mais">Ver mais</button>
+            </section>
+          </aside>
+        </div>
+      </div>
+
+      <section class="comentarios">
+        <h3>Deixe seu comentário</h3>
+        <div class="deixar-comentario">
+          <textarea
+            id="comentario"
+            placeholder="Deixe seu comentário aqui"
+          ></textarea>
+          <button class="botao-enviar" onclick="adicionarComentario()">
+            Enviar
+          </button>
+        </div>
+        <h3>Comentário anteriores</h3>
+        <div class="lista-comentarios" id="lista-comentarios">
+          <!-- Os comentários serão inseridos aqui pelo JavaScript -->
+        </div>
+      </section>
+
+      <footer>
+        <div class="top-section">
+          <div class="social-media">
+            <p>Siga a Kicker nas redes sociais</p>
+            <div class="icons">
+              <a href="#"><img src="./icons/tik-tok.svg" alt="TikTok" /></a>
+              <a href="#"
+                ><img src="./icons/instagram.svg" alt="Instagram"
+              /></a>
+              <a href="#"><img src="./icons/twitter.svg" alt="Twitter" /></a>
+              <a href="#"><img src="./icons/youtube.svg" alt="YouTube" /></a>
+              <a href="#"><img src="./icons/facebook.svg" alt="Facebook" /></a>
+            </div>
+          </div>
+          <div class="app-download">
+            <p>Obtenha o app Kicker Anime</p>
+            <p>Para Android e iOS</p>
+            <div class="qr-code">
+              <img src="./icons/QRCode.svg" alt="QR Code" />
+            </div>
+          </div>
+        </div>
+        <div class="bottom-section">
+          <nav>
+            <a href="#">Início</a>
+            <a href="#">Sobre</a>
+            <a href="#">FAQ</a>
+            <a href="#">Ajuda</a>
+            <a href="#">Trabalhe Conosco</a>
+            <a href="#">Política de privacidade</a>
+          </nav>
+          <p class="copyright">© Kickeres Animes</p>
+        </div>
+      </footer>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
