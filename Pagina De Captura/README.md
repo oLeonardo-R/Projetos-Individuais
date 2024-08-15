@@ -1,38 +1,26 @@
-# Workshop de Programação (Projeto Pessoal)
+📚 Projeto: Página de Divulgação de Workshop
 
-Este é um projeto pessoal desenvolvido para estudos na área de desenvolvimento web. O objetivo deste projeto é criar um website fictício para um workshop de programação, onde são exploradas habilidades de programação Full Stack.
+🎯 Objetivo do Projeto
+O principal objetivo deste projeto é praticar HTML e CSS, com ênfase na integração de um formulário com o Mailchimp, um popular serviço de e-mail marketing.
 
-## Sobre o Projeto
+🚀 Tecnologias Utilizadas
+HTML
+CSS
+Mailchimp (para integração de formulários)
 
-O "Workshop de Programação" é um projeto fictício destinado a praticar e aprimorar habilidades de desenvolvimento web. Durante o desenvolvimento deste projeto, são explorados conceitos como HTML, CSS, JavaScript, design responsivo, entre outros.
+▶️ Como Rodar o Projeto
+Clone o Projeto: Faça o clone do repositório para a sua máquina local.
 
-## Como Utilizar
+bash
+Copiar código
+git clone [https://github.com/oLeonardo-R/Projetos-Individuais/tree/main/Pagina%20De%20Captura]
+Abra o Arquivo: Navegue até o diretório do projeto e abra o arquivo index.html em um navegador de sua escolha.
 
-Para utilizar este projeto, siga estas etapas:
+📦 Resultado
+GitHub Pages: [Link para o Projeto](https://oleonardo-r.github.io/Projetos-Individuais/)
 
-1. **Clone** este repositório para o seu ambiente local.
-2. Abra o arquivo `index.html` em seu navegador da web para visualizar o site localmente.
-3. Explore o código-fonte nos arquivos HTML, CSS e JavaScript para entender como o site foi desenvolvido.
+📸 Captura de Tela
 
-## Tecnologias Utilizadas
+![image](https://github.com/user-attachments/assets/7bed98d1-5197-4f5e-9718-4a78f9bdb9c3)
+![image](https://github.com/user-attachments/assets/7eac4699-8908-484f-ab8b-1645d77bde3a)
 
-Este projeto utiliza as seguintes tecnologias:
-
-- HTML
-- CSS
-
-## Autor
-
-Este projeto é desenvolvido por Leonardo R.
-
-## Contribuições
-
-Contribuições são bem-vindas! Sinta-se à vontade para enviar pull requests com melhorias, correções de bugs ou novos recursos.
-
-## Licença
-
-Este projeto é apenas para fins de estudos e não está sob nenhuma licença específica. Sinta-se à vontade para utilizá-lo como desejar para seus próprios estudos e aprendizado.
-
----
-
-**Nota:** Este é um projeto pessoal desenvolvido exclusivamente para fins de estudos e prática na área de desenvolvimento web. Todas as informações contidas neste projeto são fictícias e foram utilizadas apenas para criar um exemplo de website.
