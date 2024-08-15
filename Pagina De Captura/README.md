@@ -22,5 +22,5 @@ GitHub Pages: [Link para o Projeto](https://oleonardo-r.github.io/Projetos-Indiv
 📸 Captura de Tela
 
 ![image](https://github.com/user-attachments/assets/7bed98d1-5197-4f5e-9718-4a78f9bdb9c3)
-![image](https://github.com/user-attachments/assets/7eac4699-8908-484f-ab8b-1645d77bde3a)
+
 
